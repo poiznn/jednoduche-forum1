@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nový Příspěvek</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Nový Příspěvek</h1>
+        <a href="index.html">Zpět na přehled</a>
+    </header>
+
+    <main>
+        <form id="postForm">
+            <label for="author">Jméno autora:</label>
+            <input type="text" id="author" required>
+            
+            <label for="title">Titulek:</label>
+            <input type="text" id="title" required>
+            
+            <label for="content">Obsah:</label>
+            <textarea id="content" required></textarea>
+            
+            <button type="submit">Vytvořit příspěvek</button>
+        </form>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

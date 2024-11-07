@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fórum</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Fórum</h1>
+        <a href="new-post.html">Vytvořit nový příspěvek</a>
+    </header>
+    
+    <main>
+        <h2>Přehled příspěvků</h2>
+        <select id="sortOptions">
+            <option value="newest">Nejnovější</option>
+            <option value="oldest">Nejstarší</option>
+        </select>
+        <div id="postList"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
